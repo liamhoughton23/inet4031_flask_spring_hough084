@@ -1,10 +1,15 @@
 # inspiration code for Python Unit Testing Project
 
-def surfaceArea():
+from cmath import pi
+import math
+
+def surfaceArea():  
     pass
 
-def volume():
-    pass
+def volume(rad):
+    cube = rad * rad * rad
+    volume = (4/3) * pi * cube
+    return volume
 
 def prompt():
     print()
